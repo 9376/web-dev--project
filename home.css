@@ -1,0 +1,38 @@
+.body{
+background-color: #7FAAFF;
+top:0;
+left:0;
+right:0;
+
+}
+
+.top{
+  top: 0;
+  width: 100%;
+  right: 0;
+  left: 0;
+  position: fixed;
+  background-color: #00AAFF;
+  color: black;
+}
+.head{
+  color:#167DA6;
+  left:0;
+  right:0;
+  text-decoration: underline;
+}
+.grd{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  left:0;
+  right:0;
+  top :0;
+}
+a:active{
+  color:balck;
+}
+a:hover{
+  color: #B8C5CA;
+  background-color:black;
+  transition: 0.5s;
+}

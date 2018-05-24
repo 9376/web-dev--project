@@ -7,3 +7,9 @@ body, html{
   line-height: 1.8em;
   color: #666;
 }
+.top{
+  position: fixed;
+  margin: 0;
+  color: white;
+  background-color: #99FFFF;
+}

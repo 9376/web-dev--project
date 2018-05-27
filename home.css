@@ -23,7 +23,7 @@ right:0;
 }
 .grd{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   left:0;
   right:0;
   top :0;

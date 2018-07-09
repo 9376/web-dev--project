@@ -3,7 +3,7 @@ include_once('db.php');
 
 $count=$_POST['newcount'];
 
- $sql="SELECT * FROM comments LIMIT $count";
+ $sql="SELECT * FROM coments LIMIT $count";
  $result= mysqli_query($conn,$sql);
  if (mysqli_num_rows($result)>0){
    while($row= mysqli_fetch_assoc($result)){
